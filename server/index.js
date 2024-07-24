@@ -18,7 +18,7 @@ app.use(express.urlencoded({ limit: "100mb", extended: true }));
 /** Middlewares */
 app.use(express.json());
 const corsConfig = {
-  origin: "http://localhost:3000",
+  origin: "https://podhub-five.vercel.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
